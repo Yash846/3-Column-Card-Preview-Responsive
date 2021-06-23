@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-(./3ColumnCard.JPG)
+![](./3ColumnCard.JPG)
 
 
 ### Links
