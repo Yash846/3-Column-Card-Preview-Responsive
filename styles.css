@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---------------- CSS Start ------------------------------------------------- */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color:hsl(0, 0%, 95%);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Lexend Deca', monospace;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+.card img {
+    margin-bottom: 25px;
+}
+
+.primary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    padding: 30px;
+}
+
+.learn-more {
+    font-family: 'Lexend Deca', monospace;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    padding: 10px 20px;   
+    cursor: pointer;
+    transition: all .3s ease-in-out; 
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sedans .learn-more{
+    color:hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suv .learn-more {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxary {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxary .learn-more {
+    color: hsl(179, 100%, 13%);
+}
+
+.learn-more:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+@media (min-width: 900px) {
+    
+    .primary-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        min-height: 100vh;
+        max-width: 900px;
+        margin: auto;
+    }
+    .card {
+        padding: 50px;
+    }
+    p {
+        margin-bottom: 4rem;
+        padding-right: 1.5rem;
+    }
+
+    .sedans {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .luxary {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .attribution {
+        margin-top: -4rem;
+    }
+
+    body, html {
+        height: 100%;
+    }
+}
