@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Yash846/3-Column-Card-Preview-Responsive
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Yash846/3-Column-Card-Preview-Responsive)
+- Live Site URL: [Live Site](https://friendly-curie-a8cd62.netlify.app/)
 
 ## My process
 
@@ -55,9 +55,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- LinkedIn - [Yash Sawlani](https://www.linkedin.com/in/yash-sawlani/)
+- Frontend Mentor - [@Yash846](https://www.frontendmentor.io/profile/Yash846)
+- GitHub - [@Yash846](https://github.com/Yash846)
 
 
 
