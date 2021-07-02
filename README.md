@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Yash846/3-Column-Card-Preview-Responsive)
-- Live Site URL: [Live Site](https://friendly-curie-a8cd62.netlify.app/)
+- Live Site URL: [Live Site](https://3-column-card-responsive.netlify.app/)
 
 ## My process
 
